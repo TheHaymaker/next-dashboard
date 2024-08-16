@@ -8,6 +8,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./vitest.setup.ts'],
     coverage: {
+      enabled: true,
       reporter: ['text', 'json', 'html'],
       provider: 'v8',
     },
